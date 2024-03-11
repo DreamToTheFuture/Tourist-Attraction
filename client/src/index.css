@@ -1,0 +1,77 @@
+h1 {
+  color: rgb(15, 88, 177);
+  text-align: center;
+}
+
+h3,
+.searchTravelBox {
+  width: 70%;
+  margin: auto;
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  margin-bottom: 30px;
+  gap: 80px;
+  height: 250px;
+  margin-left: 200px;
+}
+
+.pic-box {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.pic {
+  display: flex;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  gap: 10px;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.description,
+.tag {
+  color: rgb(121, 114, 114);
+}
+
+.tag-box {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.tag {
+  text-decoration: underline;
+}
+
+a {
+  width: 50px;
+}
+
+.otherPics {
+  height: 100px;
+  width: 100px;
+  margin-right: 30px;
+  border-radius: 20px;
+}
